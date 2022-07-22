@@ -1,0 +1,31 @@
+{
+  "name": "ice_cream_group_2",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://anvomm.github.io/ice_cream_group_2",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /ice_cream_group_2/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anvomm/ice_cream_group_2.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anvomm/ice_cream_group_2/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
