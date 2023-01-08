@@ -1,0 +1,59 @@
+<section id="about" class="about section">
+    <div class="container ">
+        <p class="section__suptitle">tradition and love</p>
+        <h2 class="section__title">how it’s made?</h2>
+        <div class="about__content">
+            <picture>
+                <source srcset="./images/desktop/about/about.webp 1x, ./images/desktop/about/about@2x.webp 2x" media="(min-width:1200px)" type="image/webp"/>
+                <source srcset="./images/desktop/about/about.png 1x, ./images/desktop/about/about@2x.png 2x" media="(min-width:1200px)" />
+                <source srcset="./images/tablet/about/about.webp 1x, ./images/tablet/about/about@2x.webp 2x" media="(min-width:768px)" type="image/webp"/>
+                <source srcset="./images/tablet/about/about.png 1x, ./images/tablet/about/about@2x.png 2x" media="(min-width:768px)" />
+                <source srcset="./images/mobile/about/about.webp 1x, ./images/mobile/about/about@2x.webp 2x" media="(max-width:767px)" type="image/webp"/>
+                <source srcset="./images/mobile/about/about.png 1x, ./images/mobile/about/about@2x.png 2x" media="(max-width:767px)" />
+            <img class="about__image element-animation" src="./images/desktop/about/about.png" alt="корова и графин молока">
+            </picture>
+            <div class="about__text--wraper">
+                <p class="about__text about__text--black">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros.
+                Maecenas eleifend erat at justo fringilla.</p>
+                <p class="about__text about__text--gray">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat.
+                Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.</p>
+                <p class="about__text about__text--gray">Aliquam erat volutpat. Aenean accumsan.</p>
+                <button class="button_large modal__btn_about" type="button" data-modal-about-open>Read more
+                    <svg class="btn-icon btn-icon-about" width="10px" height="10px">
+                        <use href="./images/sprite.svg#icon-vector"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="backdrop  modal-hidden" data-modal-about>
+        <div class="modal__about_window">
+            <div class="modal__about_wrap">
+                <h2 class="modal__about_title">How is ice cream made?</h2>
+                <ol class="modal__about_list">
+                    <li>Milk, cream, milk solids, sugars, modifying agents and flavourings are blended together in stainless steel vats.
+                    </li>
+                    <li>The mix is homogenised to create a consistent texture.</li>
+                    <li>The mix is pasteurised by heating at 82-85°C for 15 seconds then cooled to destroy bacteria.</li>
+                    <li>The mix is left alone for 2-24 hours so fat globules solidify and viscosity increases. Flavours or colourings
+                        are added.</li>
+                    <li>The mix is frozen (at about -7°C) and beaten (or ‘agitated’). This adds air to the mix.</li>
+                    <li>The ice cream is moulded, packaged and frozen at around -25°C to allow it to harden.</li>
+                </ol>
+                <p class="modal__about_text">Making ice cream at home follows a similar process. You can use an ice cream machine to
+                    “stir freeze” the mix, which
+                    whips in air while the mix freezes.</p>
+                <p class="modal__about_text">Stir freezing" is the method of stirring the mixture by hand a number of times during the
+                    freezing period to achieve a
+                    smooth texture. Partially frozen mixtures can be stirred in an electric mixer or food processor, though it needs to
+                    be
+                    processed quickly and returned to the freezer in between.</p>
+            </div>
+            <button type="button" class="modal-window__close-button" aria-label="Open mobile menu" data-modal-about-close>close
+                <svg class="modal-window__close-button-icon" width="20px" height="20px">
+                    <use href="/src/images/sprite.svg#icon-ice-cream"></use>
+                </svg>
+                </button>
+        </div>
+    </div>
+</section>
